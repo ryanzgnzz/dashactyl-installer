@@ -104,7 +104,7 @@ settings_configuration() {
     echo "https://josh0086.gitbook.io/dashactyl/"
     echo "-------------------------------------------------------"
     cd /var/www/dashactyl/
-    file=settings.json
+    file=settings-template.yml
 
     echo "What is the web port? [80] (This is the port Dashactyl will run on)"
     read WEBPORT
